@@ -14,5 +14,16 @@ How to download the code:
         from github: open github,select the project which you want to download, 
         in the upper corner there is a button  clone or download, 
         click on it and write the name of the folder where you want to save
-How to run the bot:
+How to run the bot: 
+        you need to create a new .bat file and in this file you need to write
+        
+        call %~dp0'the name of folder'\venv\Scripts\activate
+
+        cd  %~dp0'the name of folder'
+
+        set TOKEN='your token'
+
+        python bot_telegram.py    ''bot_telegram.py' has in code'
+
+        pause
         
